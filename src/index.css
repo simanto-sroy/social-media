@@ -1,0 +1,25 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --bg-color-dark: #111;
+    --bg-color-light: #fff;
+}
+
+*,
+*::after,
+*::before {
+    text-decoration: none;
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--bg-color-dark);
+    color: var(--bg-color-light);
+}
+
+input::placeholder {
+    color: white;
+}

@@ -1,0 +1,15 @@
+.container {
+    width: 95%;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.bg-dark-light {
+    background-color: #242526;
+}
