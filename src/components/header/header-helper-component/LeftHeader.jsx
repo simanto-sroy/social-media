@@ -23,7 +23,7 @@ const inputStyle = {
 const LeftHeader = ({handleLogoClick, inputHandleChange}) => {
 
     return (
-        <div className="d-flex">
+        <div className="d-flex" style={{"gap":"0.5rem"}}>
             <Logo 
                 url="/"
                 handleLogoClick={handleLogoClick}

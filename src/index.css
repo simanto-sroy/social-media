@@ -18,6 +18,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     background-color: var(--bg-color-dark);
     color: var(--bg-color-light);
+    overflow-x: hidden;
 }
 
 input::placeholder {
